@@ -87,8 +87,8 @@ var city = escape($("#city-input").val().trim());
 
 // Here we construct our URL
 
-var queryURL1 = `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&APPID=d8d5661f194ef7faedaec89933e8da4d`;
-var queryURL2 = `http://api.openweathermap.org/data/2.5/forecast?q=${city}&units=metric&APPID=d8d5661f194ef7faedaec89933e8da4d`;
+var queryURL1 = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&APPID=d8d5661f194ef7faedaec89933e8da4d`;
+var queryURL2 = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&units=metric&APPID=d8d5661f194ef7faedaec89933e8da4d`;
 console.log(queryURL1);
 console.log(queryURL2);
 
