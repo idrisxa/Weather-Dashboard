@@ -97,13 +97,13 @@ console.log(queryURL2);
 $.ajax({
   url: queryURL1,
   method: "GET",
-  //dataType: "xml",
+  
 }).then(showWeather)
 
 $.ajax({
   url: queryURL2,
   method: "GET",
-  //dataType: "xml",
+  
 }).then(showFive);
 
 
